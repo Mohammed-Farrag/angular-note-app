@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="input-group">
+  <input class="search-input" type="text" placeholder="Search Note" >
+</div>
+
+<button class="add-note" (click)="addNewNote()">Add New Note</button>
+
+<div *ngIf='indexMode else router_fire'>
+  <app-all-notes></app-all-notes>
+</div>
+
+<ng-template #router_fire>
+<router-outlet></router-outlet>
+
+</ng-template>

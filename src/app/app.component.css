@@ -1,0 +1,20 @@
+* {
+  font-family: Lato;
+  list-style-type: none;
+}
+
+ul, li{
+  list-style-type: none
+}
+
+app-navbar{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,60,219,1) 36%, rgba(14,14,217,1) 61%, rgba(0,212,255,1) 100%);
+}

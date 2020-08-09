@@ -1,0 +1,31 @@
+*{
+  list-style-type: none
+}
+
+
+.note{
+  position: relative;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 10px
+}
+
+.delete-note{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #000;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 7px;
+  border: 2px solid #000;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+
+.delete-note:hover{
+  background: #fff;
+  color: #000;
+  
+}
